@@ -1,0 +1,66 @@
+@import './global.css';
+
+.book-card {
+  height: 90%;
+  width: 90%;
+  border-radius: 3rem;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.read {
+  background-color: rgb(255, 255, 255);
+  border: 1rem solid rgb(180, 255, 190);
+}
+
+.unread {
+  background-color: rgb(255, 255, 255);
+  border: 1rem solid rgb(255, 180, 190);
+}
+
+.book-card-heading {
+  flex: 1;
+  font-family: 'source_code_proextralight';
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-card-field {
+  flex: 1;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-card-field-heading {
+  flex: 1;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'source_code_proextralight';
+  font-size: 1.3rem;
+
+}
+
+.book-card-field-info {
+  flex: 1;
+
+  font-family: 'source_code_proextralight';
+  font-size: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

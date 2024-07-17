@@ -1,0 +1,14 @@
+@import url('./global.css');
+
+.collection {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'source_code_proextralight';
+  font-size: 3rem;
+  font-weight: 400;
+  background-color: rgb(190, 190, 190);
+}

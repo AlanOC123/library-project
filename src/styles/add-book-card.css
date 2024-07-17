@@ -1,0 +1,106 @@
+@import url('./global.css');
+
+.card-body {
+  width: 60%;
+  height: 95%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(200, 200, 200);
+  border: 2rem solid rgb(160, 200, 220);
+  border-radius: 4rem;
+}
+
+.card-header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'source_code_proextralight';
+  font-size: 6rem;
+}
+
+.card-details {
+  flex: 5;
+  width: 70%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.add-book-card-field {
+  flex: 1;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-book-card-field-label {
+  font-family: 'source_code_proXLtIt';
+  font-size: 2.2rem;
+
+  flex: 2;
+}
+
+.add-book-card-field-text,
+.add-book-card-field-number,
+.add-book-card-field-checkbox {
+  flex: 1;
+
+  font-family: 'source_code_proXLtIt';
+  font-size: 1.8rem;
+  outline: none;
+  border: none;
+  border-bottom: solid 0.1rem rgb(35, 25, 25);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.add-book-card-field-checkbox {
+  transform: scale(3);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#add-button,
+#cancel-button {
+  flex: 1;
+  height: 50%;
+  margin: 0 3rem;
+  border-radius: 2rem;
+  outline: none;
+  border: 0.2rem solid rgb(160, 200, 220, 0);
+  transition: all 0.3s ease-in-out;
+
+  font-family: 'source_code_proXLtIt';
+  font-size: 2rem;
+}
+
+#add-button {
+  background-color: rgb(180, 255, 190);
+}
+
+#cancel-button {
+  background-color: rgb(255, 180, 190);
+}
+
+#add-button:hover {
+  background-color: rgb(230, 255, 240);
+  border: 0.3rem solid rgb(100, 255, 110);
+}
+
+#cancel-button:hover {
+  background-color: rgb(255, 200, 210);
+  border: 0.3rem solid rgb(255, 130, 140);
+}

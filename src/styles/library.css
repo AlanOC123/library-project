@@ -1,0 +1,38 @@
+@import url('./global.css');
+
+.library {
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section {
+  flex: 1;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem 0rem;
+  font-family: 'source_code_proXLtIt';
+  font-size: 1.5rem;
+}
+
+.section-display {
+  height: 100%;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-template-rows: 1fr;
+  place-items: center;
+}

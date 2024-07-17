@@ -1,0 +1,85 @@
+@import url('./global.css');
+
+.nav-bar {
+  width: 100%;
+  min-height: 20%;
+  background: rgb(200, 200, 200);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: space-around;
+  align-items: center;
+  gap: 10rem;
+  flex: 1;
+}
+
+.nav-heading {
+  flex: 2;
+  font-family: 'source_code_proextralight';
+  font-size: 4rem;
+  font-weight: 900;
+
+  display: flex;
+  justify-content: center;
+}
+
+.nav-buttons-field {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 5rem;
+
+  gap: 3rem;
+}
+
+#add-new-book {
+  flex: 1;
+  outline: none;
+  border: none;
+  font-family: 'source_code_proXLtIt';
+  font-weight: 900;
+  font-size: calc(0.5rem + 1vw);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  transition: all 0.2s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-new-book:hover {
+  flex: 3;
+  font-size: calc(1.25rem + 1vw);
+  background: rgb(200, 255, 200);
+  border: 0.2rem solid rgb(35, 215, 160);
+}
+
+#clear-library {
+  flex: 1;
+  outline: none;
+  border: none;
+  font-family: 'source_code_proXLtIt';
+  font-weight: 900;
+  font-size: calc(0.5rem + 0.75vw);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  transition: all 0.2s ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  text-wrap: nowrap;
+}
+
+#clear-library:hover {
+  flex: 3;
+  background: rgb(255, 200, 200);
+  border: 0.2rem solid rgb(215, 35, 160);
+  font-size: calc(1rem + 0.75vw);
+}
